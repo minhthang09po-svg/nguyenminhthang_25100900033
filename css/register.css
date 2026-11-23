@@ -1,0 +1,57 @@
+/* CSS trang đăng ký CellPC - không sử dụng JavaScript */
+.register-wrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.register-card {
+    width: 100%;
+    max-width: 850px;
+    min-height: auto;
+    padding: 32px;
+}
+
+.register-card .auth-title {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.register-description {
+    margin-bottom: 25px;
+    color: #6c757d;
+    text-align: center;
+}
+
+.register-card .form-control {
+    min-height: 44px;
+}
+
+.register-card .form-check {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.register-card .form-check-input {
+    float: none;
+    margin: 0;
+}
+
+@media (max-width: 767.98px) {
+    .register-wrapper {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .register-card {
+        padding: 24px 18px;
+    }
+
+    .register-description {
+        margin-bottom: 20px;
+    }
+}
